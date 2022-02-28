@@ -5,9 +5,6 @@ public class ObservableRangeAndDefer {
     private static int start = 5, count =2;
 
     public static void main(String[] args) {
-//        Observable<Integer> observable = Observable.range(0,10);
-//        observable.subscribe(System.out::println);
-
 
         Observable<Integer> observable = Observable.defer(() -> {
 
@@ -19,6 +16,5 @@ public class ObservableRangeAndDefer {
         count =3;
 
         observable.subscribe(integer -> System.out.println("Observer 2: " + integer));
-
     }
 }
