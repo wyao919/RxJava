@@ -1,7 +1,5 @@
 import io.reactivex.Observable;
 
-import java.awt.event.ItemEvent;
-
 public class MapAndFilter {
 
     public static void main(String[] args) {
