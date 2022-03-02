@@ -22,6 +22,4 @@ public class DoFinally {
                 .doOnSubscribe(Disposable::dispose)
                 .subscribe(System.out::println);
     }
-
-
 }
