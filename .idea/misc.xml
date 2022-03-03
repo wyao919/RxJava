@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/FirstProject/pom.xml" />
+        <option value="$PROJECT_DIR$/../RxJava3/pom.xml" />
       </list>
     </option>
   </component>

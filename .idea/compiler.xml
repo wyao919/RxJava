@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FirstProject" />
+        <module name="RxJava3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="FirstProject" target="17" />
+      <module name="RxJava3" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -9,6 +9,7 @@ public class MapAndFilter {
         filterOperator();
         mapAndFilter();
 
+
     }
 
     public static void mapOperator(){
